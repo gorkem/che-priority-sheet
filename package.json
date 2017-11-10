@@ -1,0 +1,22 @@
+{
+  "name": "che-priority-sheet",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "out/index.js",
+  "dependencies": {
+    "google-spreadsheet": "^2.0.4",
+    "github": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "7.0.12",
+    "@types/github":"7.1.0",
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "compile": "tsc -watch -p ./",
+    "build": "tsc -p ./",
+    "execute": "node ./out/index.js"
+  }
+}
